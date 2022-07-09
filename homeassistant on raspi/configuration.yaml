@@ -1,0 +1,5 @@
+notify:
+  - name: pushover
+    platform: pushover
+    api_key: #PUSHOVER_API_KEY#
+    user_key: #PUSHOVER_USER_KEY#
