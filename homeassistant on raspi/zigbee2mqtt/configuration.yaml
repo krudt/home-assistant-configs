@@ -1,0 +1,10 @@
+homeassistant: true
+mqtt:
+  server: mqtt://core-mosquitto:1883
+  user: #mqtt_user#
+  password: #mqtt_password#
+serial: # zigbee stick conbee2
+  port: /dev/ACM0
+  adapter: deconz
+frontend:
+  port: 8099  
